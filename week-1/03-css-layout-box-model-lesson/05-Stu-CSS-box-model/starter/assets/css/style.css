@@ -9,4 +9,8 @@ img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  padding: 20px;
+  margin: 20px 10px;
+  border: 10px darkblue solid;
 }
+
