@@ -1,0 +1,28 @@
+BOOTCAMP
+
+PRE-WORK
+
+DECOMPOSITION
+Pour the orange juice in the glass cup on the table.
+//Tasks
+//Pick the juice up
+//Open the juice 
+//Pour the juice into the glass cup
+//Close the juice 
+//Put the juice back on the table
+
+PATTERN RECOGNITION 
+//None
+
+ABSTRACTION
+//None
+
+ALGORITHM
+//Sequence 
+//1. Event 1: Pick up juice 
+//2. Event 2: Open Juice
+//3. Event 3: Pour the juice in the cup
+//4. Event 4: Close the juice  
+//5. Event 5: Put the juice back on the table
+
+TESTING AND DEBUGGING
