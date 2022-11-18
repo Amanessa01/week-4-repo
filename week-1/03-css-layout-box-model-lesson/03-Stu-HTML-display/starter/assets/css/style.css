@@ -15,7 +15,7 @@ ul {
 li {
   list-style-type: none;
   font-size: 40px;
-}
+} display
 
 img {
   margin: 0 auto;
@@ -34,5 +34,5 @@ img {
 }
 
 #image-3 {
-  display: none;
+  display: inline;
 }

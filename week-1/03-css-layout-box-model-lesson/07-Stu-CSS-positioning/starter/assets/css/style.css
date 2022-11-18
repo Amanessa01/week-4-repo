@@ -11,11 +11,11 @@ main {
 h1,
 h2,
 h3 {
-  text-align: center;
+  text-align: center;20px
 }
 
 img {
-  display: block;
+  display: block;20px
 }
 
 header {
@@ -36,6 +36,6 @@ header {
 }
 
 .absolute-container {
-  position: relative;
+  position: relative;200px
 }
 
