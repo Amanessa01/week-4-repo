@@ -39,3 +39,13 @@ header {
   position: relative;
 }
 
+#relative-box-2 {
+  margin: 0 auto;
+}
+
+#absolute-box-2 {
+  position: absolute;
+  left: 650px;
+  top: 0px; 
+  
+}
