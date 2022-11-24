@@ -1,0 +1,135 @@
+/*************** 
+Navigation styles 
+****************/
+
+/*CSS selector targeting logog class with the logo background img*/
+.logo {
+    background: white;
+    height: 230px;
+    background-image: url(../img/jakes-logo.png);
+    background-repeat: no-repeat;
+    background-positon: center;
+}
+/*Selector targeting the nav class */
+.nav {
+   display: flex; 
+    background-color: black;
+    padding: 20px;
+}
+/*Selector targeting three classes at once*/
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/*Selector targeting left and right classes*/
+.left, .right {
+    width: 25%;
+    
+}
+/*Target center selector*/
+.center {
+    width: 50%;
+}
+/*target a inside center div*/
+.center a {
+    color:aliceblue;
+    padding: 10px;
+    font-sizze: 18px;
+    text-decoration: none;
+    font-family: arial;
+}
+/*Target button*/
+button {
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+}
+/*target button inside left div*/
+.left button {
+   background-color: skyblue;
+}
+/*target button inside right div*/
+.right button {
+  background-color: yellow;  
+}
+/*********** 
+Column styles 
+************/
+/*target parent container*/
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-decoration: column;
+    margin: 0 auto;
+}
+/*target the three classes*/
+.meal1, .meal2, .meal3 {
+    background-image: url(../img/steak.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-origin: content-box; /*stay in box*/
+}
+/*target meal2*/
+.meal2 {
+    background-image: url(../img/soup.png);
+    background-repeat: no-repeat;
+}
+/*target meal3*/
+.meal3 {
+    background-image: url(../img/cheesecake.png);
+    background-repeat: no-repeat;
+}
+/*Target text class*/
+.text {
+    background: rgb(0,0,0,0,7);
+    width: 100%;
+    padding: 20xp 40xp;
+    color: white;
+    background-color: rgba(0,0,0, 0.5); /*bg color with 50% opacity*/
+}
+/*target p inside text class*/
+.text p {
+    color: rgb(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Target H1 inside of text class*/
+.text h1 {
+    font-family: Gerogia, 'Times New Roman', Times, serif; property.
+}
+/*style footer*/
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+/*Style three tags at once */
+.fb, .tw, .ig {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+/*Color FB*/
+.fb {
+    color: #3b5998;
+}
+/*Color Twitter*/
+.tw {
+    color: yellow;
+}
+/*Color instagramg*/
+.ig {
+    color: red;
+}
+
+/*********** 
+Footer Styles 
+***********/
