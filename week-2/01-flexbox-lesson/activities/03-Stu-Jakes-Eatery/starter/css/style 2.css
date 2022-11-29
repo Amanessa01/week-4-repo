@@ -1,4 +1,12 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
 /* Navigation styles */
+.nav {
+    display: flex;
+}
 
 /* Column styles */
 

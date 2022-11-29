@@ -1,5 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 46px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    display: block;
+}
+
+button {
+    padding: 30px;
+    font-size: 16px;
+}
+
+.left button {
+    background-color: aquamarine;
+}
+
+.right button {
+    background-color: chartreuse;
+}
+
 /* Navigation styles */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 0%);
+    padding: 10px;
+
+}
+
+.nav a {
+    color: hsl(0, 100%, 100%);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav a+a {
+    margin-left: 15px;
+}
+
+/* .left {
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.center {
+    justify-content: center;
+    flex: 1;
+}
+
+.right {
+    justify-content: flex-end;
+    flex: 1;
+} */
 
 /* Column styles */
+figure {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    background-color: rgb(77, 69, 69);
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+figure img {
+    position: relative;
+    bottom: 0;
+
+}
+
+figcaption {
+    background-color: hsla(0, 100%, 0%, 0.7);
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 22px;
+}
 
 /* Footer Styles */
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fb {
+    color: lightslategray;
+}
+
+.tw {
+    color: yellow;
+}
+
+.ig {
+    color: red;
+}
