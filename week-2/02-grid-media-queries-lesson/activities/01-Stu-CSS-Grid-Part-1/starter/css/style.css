@@ -52,20 +52,20 @@ body {
 /* Category Grid CSS */
 #featuredProduct {
   grid-area: featuredProduct;
-  background-image: url("../images/furniture1.png");
+  background-image: url("../images/furniture1@2x.png");
   background-size: cover;
 }
 
 #secondaryProduct {
   grid-area: secondaryProduct;
-  background-image: url("../images/furniture2.png");
+  background-image: url("../images/furniture2@2x.png");
   background-size: cover;
   background-position: bottom;
 }
 
 #CTA {
   grid-area: CTA;
-  background-image: url("../images/woodbg.png");
+  background-image: url("../images/woodbg@2x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
