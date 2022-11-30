@@ -1,8 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 /* Grid CSS */
+
 
 
 /* Category Grid CSS */
@@ -17,30 +24,36 @@ body {
   flex-direction: row;
   margin: 0px 5%;
 }
+
 #navBar h1 {
   width: 25%;
   font-weight: 500;
 }
+
 #navigation {
   display: flex;
   width: 50%;
   align-items: center;
   justify-content: space-evenly;
 }
+
 #navigation p {
   cursor: pointer;
   text-decoration: none;
 }
+
 .icons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 25%;
 }
+
 .icons img {
   margin: 15px;
   cursor: pointer;
 }
+
 .highlight {
   color: #FF6200;
   font-weight: 700;
