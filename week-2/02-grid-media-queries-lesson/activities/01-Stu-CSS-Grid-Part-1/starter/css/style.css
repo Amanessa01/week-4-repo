@@ -8,13 +8,68 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Grid CSS */
+#headline {
+  padding: 50px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  display: inline-block;
+  border-bottom: 5px solid #FF6200;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -25%;
+  z-index: 10;
 
+}
+
+/* #featuredProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#CTA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10%;
+  padding: 10px;
+}
+
+/* Grid CSS */
+#heroGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "featuredProduct featuredProduct featuredProduct secondaryProduct"
+    "featuredProduct featuredProduct featuredProduct secondaryProduct"
+    "featuredProduct featuredProduct featuredProduct CTA"
+  ;
+  height: 100vh;
+}
 
 
 /* Category Grid CSS */
+#featuredProduct {
+  grid-area: featuredProduct;
+  background-image: url("../images/furniture1.png");
+  background-size: cover;
+}
 
+#secondaryProduct {
+  grid-area: secondaryProduct;
+  background-image: url("../images/furniture2.png");
+  background-size: cover;
+  background-position: bottom;
+}
 
+#CTA {
+  grid-area: CTA;
+  background-image: url("../images/woodbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 
 /* Navigation CSS */
