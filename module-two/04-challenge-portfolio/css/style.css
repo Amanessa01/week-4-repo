@@ -31,27 +31,33 @@ h6 {
 p {
   margin: 0;
 }
-
+.nav{background: #31343C; height: 100px; width: 100%;}
+             /* Name */
+            .name{float:left; margin:20px; padding: 10px; background: #97C5CA;}
+                /* ul*/
+            ul.menu-list{ overflow: hidden; background-color: #31343C; float: right;}
+             /* li*/
+             ul.menu-list li{list-style: none; float: right; margin: 5px 10px;}
+             /* li a */
+             ul.menu-list li a{ text-decoration: none; background: #31343C; color: #97C5CA;}
+             /* li a:hover color*/
+              ul.menu-list li a:hover{color:#ffffff;}
+             /* A class with bottom border to show the underline effect*/
+             ul.menu-list a{text-decoration: none; font-size: 20px; font-famil:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 14px 16px; display: block; border-bottom: 3px solid;}
+            /*when shrunk below 600px, arange the menu vertical*/
+            @media screen and (max-width: 600px;) {.name  ul.menu-list li, .name  ul.menu-list li {float:none}}
 .header {
     width: 100%;
   
 }
-iframe{
-    display: block;
-    width: 100%;
-    height: 100px;
-    position: relative;
-    min-height: 100px;
-    max-width: 100%; 
-    
-}
+
 .hero-banner {
     background-color: #97C5CA;
     width: 100%;
     height: 300px 
 }
 .hero-img {
-    background-image: url(../images/02-hero-bg.jpg);
+    background-image: url(../images/bio-img.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(151,197,202, 0.3);
@@ -74,6 +80,7 @@ iframe{
 /*******************
 MAIN CONTAINER SECTION
 *******************/
+
 .divider {
     margin-bottom: 300px;
 }
@@ -81,10 +88,7 @@ MAIN CONTAINER SECTION
     padding: 20px;
     margin: 10px;
 }
-.grid-container {
-    
-    
-}
+
 .primary-section {
     border-left: 5px solid #475874;
     float:right;
@@ -100,6 +104,20 @@ MAIN CONTAINER SECTION
 }
 p{
     padding:10px;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+.item2 {
+    background-image: url(../images/02-portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    border: 5px solid #9DCBCD;
+    height: 300px;
+    /*Align to the bottom*/
+    display: flex;
+    align-items: flex-end;
 }
 .item {
     background-image: url(../images/02-portfolio-1.jpg);
@@ -134,16 +152,6 @@ p{
     background-image: url(../images/02-run-buddy.jpg);
     background-repeat: no-repeat;
      background-size: 500px;
-}
-.item2 {
-    background-image: url(../images/02-portfolio-4.jpg);
-    background-repeat: no-repeat;
-    background-size: 1000px;
-    border: 5px solid #9DCBCD;
-    height: 300px;
-    /*Align to the bottom*/
-    display: flex;
-    align-items: flex-end;
 }
 
 .project-tittle {

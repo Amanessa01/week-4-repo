@@ -9,6 +9,8 @@ Navigation styles
     background-image: url(../img/jakes-logo.png);
     background-repeat: no-repeat;
     background-positon: center;
+    display: flex;
+    justify-content: center;
 }
 /*Selector targeting the nav class */
 .nav {
