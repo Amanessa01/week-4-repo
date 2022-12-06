@@ -1,0 +1,15 @@
+section {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
+  display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}

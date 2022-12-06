@@ -1,0 +1,50 @@
+/*****
+AUTHOR:  Abdulkadir mohammed
+Date: Mon 5 Dec 22
+*****/
+body {
+    background: #efeee7;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+header{
+     background-color: #333333;
+}
+h1{
+    color: #eeeeee;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px;
+    margin-top: -10px;
+}
+h2{
+    font-size: 24px;
+}
+.container{
+    width: 1024px;
+    margin: auto;
+    display:flex;
+   
+}
+.main-bio, .bio-image, .contact-info, {
+   float: left; 
+}
+
+#main-bio{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+#bio-image{
+    width: 200px;
+    margin-top: 10px;
+}
+#contact-info{
+    width: 30%;
+    line-height: 30px;
+}
+ a{
+    color: #d21034;
+}
